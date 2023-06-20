@@ -1,0 +1,54 @@
+.dark__mode h1{
+    color: var(--color-grey-8);
+}
+
+.dark__mode .darkMode__button{
+    background-color: var(--color-grey-1);
+    border: 0px solid transparent;
+
+}
+
+.dark__mode .gender__title {
+    color: var(--color-grey-4);
+}
+
+.dark__mode .buttons__categories{
+    background-color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-2);
+    color: var(--color-grey-9);
+}
+
+.dark__mode .divPrice__container h2{
+    color: var(--color-grey-4);
+}
+
+.dark__mode .input__father{
+    color: var(--color-grey-3);
+}
+
+.dark__mode .second__container > h2{
+    color: var(--color-grey-4);
+}
+
+.dark__mode .found__albuns li{
+background-color: var(--color-grey-1);
+}
+
+.dark__mode .found__albuns p{
+    color: var(--color-grey-3);
+}
+
+.dark__mode .found__albuns h2{
+    color: var(--color-grey-8);
+}
+
+.dark__mode .found__albuns span{
+    color: var(--color-grey-8);
+}
+
+.dark__mode .found__albuns span button{
+    background-color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-2);
+    color: var(--color-grey-5);
+}
+
