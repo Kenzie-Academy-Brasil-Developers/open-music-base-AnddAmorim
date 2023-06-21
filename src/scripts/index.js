@@ -58,9 +58,11 @@ function addEventsFilter(categories, products){
 
    let filteredArray = products
    let categoryIndex = 0
-   let inputValue = priceInput.value
-
+   let inputValue = 100
+   
    filterButtons.forEach((button, index)=>{
+      button.innerText = categories[index]
+
       button.addEventListener("click", ()=>{
          categoryIndex = index
          
