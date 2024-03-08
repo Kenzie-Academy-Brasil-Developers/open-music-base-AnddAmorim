@@ -14,8 +14,13 @@
 
 .dark__mode .buttons__categories{
     background-color: var(--color-grey-2);
-    border: 1px solid var(--color-grey-2);
+    border: 1px solid var(--color-grey-3);
     color: var(--color-grey-9);
+}
+.dark__mode .buttons__categories:hover{
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-4);
+    transition: 1s;
 }
 
 .dark__mode .divPrice__container h2{
@@ -50,5 +55,11 @@ background-color: var(--color-grey-1);
     background-color: var(--color-grey-2);
     border: 1px solid var(--color-grey-2);
     color: var(--color-grey-5);
+    border-radius: 3px;
 }
 
+.dark__mode .found__albuns span button:hover{
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-3);
+    transition: 1s;
+}
